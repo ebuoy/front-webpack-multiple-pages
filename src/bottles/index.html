@@ -9,6 +9,37 @@
   </head>
   <body>
     <h1>Bottles</h1>
-    <table class="table"></table>
+      <button type="button" class="btn btn-primary">Ajouter une bouteille</button>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Brand</th>
+          <th scope="col">Price(€)</th>
+          <th scope="col">Volume(cL)</th>
+          <th scope="col">Quantity</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>blabla</td>
+          <td>1.90</td>
+          <td>3</td>
+          <td>20</td>
+          <td>  
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Actions</button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Modifier la bouteille</a>
+                <a class="dropdown-item" href="#">Supprimer</a>
+              </div>
+            </div>
+        </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>

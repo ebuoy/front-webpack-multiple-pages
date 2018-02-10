@@ -5,11 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+
     <title>Bar - Login</title>
   </head>
   <body>
-    <form id="authentication">
       <h1>Login</h1>
-    </form>
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <form id="authentification">
+              <div>
+                <label for="nom">Nom d'utilisateur :</label>
+                <input type="text" name="nom" id="nom">
+              </div>
+              <div>
+                <label for="mdp">Mot de passe :</label>
+                <input type="password" name="mdp" id="mdp">
+              </div>
+              <br/>
+              <input class="btn btn-primary" type="submit" id="send" value="Envoyer">
+          </form>
+        </div>
+      </div>
   </body>
 </html>
